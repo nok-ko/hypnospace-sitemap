@@ -20,6 +20,7 @@
   "scripts": {
     "start": "vite",
     "test": "vitest",
+    "test:gui": "vitest --browser.headless=false",
     "build": "vite build",
     "serve": "vite preview"
   },
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@vitest/browser": "^3.2.4",
+    "msw": "^2.11.5",
     "playwright": "^1.56.0",
     "prettier": "^2.2.1",
     "vitest": "^3.2.4",
